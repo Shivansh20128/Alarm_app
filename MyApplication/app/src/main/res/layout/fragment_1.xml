@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alarm_app"
+        android:textAlignment="center"
+        android:paddingTop="20dp"
+        android:textSize="30sp"/>
+    <TextView
+        android:id="@+id/choose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alrm1"
+        android:textAlignment="center"
+        android:layout_marginTop="70dp"
+        android:paddingTop="20dp"
+        android:textSize="30sp"/>
+    <TextView
+        android:id="@+id/chosenTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="Time"
+
+        android:textAlignment="center"
+        android:layout_marginTop="50dp"
+        android:paddingTop="150dp"
+        android:textSize="30sp"/>
+    <Button
+        android:id="@+id/btn_choose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/setTime"
+        android:textAlignment="center"
+        android:layout_marginTop="250dp"
+        android:paddingTop="20dp"
+        android:textSize="30sp"/>
+    <TextView
+        android:id="@+id/choose2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alrm2"
+        android:textAlignment="center"
+        android:layout_marginTop="330dp"
+        android:paddingTop="20dp"
+        android:textSize="30sp"/>
+    <TextView
+        android:id="@+id/chosenTime2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="Time"
+        android:textAlignment="center"
+        android:layout_marginTop="320dp"
+        android:paddingTop="150dp"
+        android:textSize="30sp"/>
+    <Button
+        android:id="@+id/btn_choose2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/setTime"
+        android:textAlignment="center"
+        android:layout_marginTop="520dp"
+        android:paddingTop="20dp"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/start_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start"
+        android:layout_marginTop="630dp"
+        android:layout_marginLeft="20dp"
+        android:paddingTop="20dp"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/stop_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stop"
+        android:layout_marginTop="630dp"
+        android:layout_marginLeft="270dp"
+        android:paddingTop="20dp"
+        android:textSize="30sp"/>
+
+
+
+
+</FrameLayout>
